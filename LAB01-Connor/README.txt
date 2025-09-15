@@ -1,6 +1,6 @@
 Connor McCarthy
 Submission Date:
-LAB 01: 
+LAB 01: Getting to Know the Unity Timeline
 I, Connor McCarthy, understand that I am bound by Ontario Tech’s Academic Integrity Policy
 (https://usgc.ontariotechu.ca/policy/policy-library/policies/academic/academic-integrity-policy.php) which
 sets out the kinds of actions that constitute academic misconduct, including plagiarism, copying or
