@@ -207,7 +207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4086279202973348, guid: c20397bf1592dc040b827e8716b0bd41, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.18723
+      value: -8.12
       objectReference: {fileID: 0}
     - target: {fileID: 4086279202973348, guid: c20397bf1592dc040b827e8716b0bd41, type: 3}
       propertyPath: m_LocalRotation.w
@@ -247,6 +247,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1556040939566342, guid: c20397bf1592dc040b827e8716b0bd41, type: 3}
       insertIndex: -1
       addedObject: {fileID: 59954257}
+    - targetCorrespondingSourceObject: {fileID: 1556040939566342, guid: c20397bf1592dc040b827e8716b0bd41, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 59954258}
   m_SourcePrefab: {fileID: 100100000, guid: c20397bf1592dc040b827e8716b0bd41, type: 3}
 --- !u!1 &59954254 stripped
 GameObject:
@@ -301,6 +304,29 @@ MonoBehaviour:
   animator: {fileID: 59954256}
   moveSpeed: 1
   rotateSpeed: 1
+--- !u!136 &59954258
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59954254}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2.6138275
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.80691373, z: 0}
 --- !u!1001 &71562192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3349,6 +3375,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1bc711096a0d8748ad25af6cd4269ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PathManager
+  path:
+  - pos: {x: 0, y: 0, z: 0}
+  - pos: {x: 0, y: 4, z: 0}
+  - pos: {x: 4, y: 0, z: 0}
   prefab: {fileID: 5576657753244074203, guid: 12afb8e40ca44994e86c102c1ae029f1, type: 3}
   prefabPoints: []
 --- !u!4 &2004649353
@@ -3360,7 +3390,7 @@ Transform:
   m_GameObject: {fileID: 2004649351}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.88, y: 0, z: -6.15}
+  m_LocalPosition: {x: 2.85, y: 0, z: -6.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3373,6 +3403,6 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 342202570}
   - {fileID: 2004649353}
   - {fileID: 59954253}
+  - {fileID: 342202570}

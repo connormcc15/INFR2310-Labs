@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PathController : MonoBehaviour
 {
     [SerializeField]
@@ -21,6 +22,7 @@ public class PathController : MonoBehaviour
         thePath = pathManager.GetPath();
         if(thePath != null && thePath.Count > 0)
         {
+            Debug.Log("made");
             target = thePath[0];
         }
 
