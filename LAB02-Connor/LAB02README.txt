@@ -1,5 +1,5 @@
 Connor McCarthy
-Submission Date: Oct 6ht, 2025
+Submission Date: Oct 6th, 2025
 LAB 02: Waypoints, Steering, and State Machines... Oh My!
 I, Connor McCarthy, understand that I am bound by Ontario Tech’s Academic Integrity Policy
 (https://usgc.ontariotechu.ca/policy/policy-library/policies/academic/academic-integrity-policy.php) which
