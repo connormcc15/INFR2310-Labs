@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ public class PathController : MonoBehaviour
 
     public Animator animator;
     bool isWalking;
+    bool Stopped;
 
     List<WayPoint> thePath;
     WayPoint target;
@@ -72,6 +74,13 @@ public class PathController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         target = pathManager.GetNextTarget();
+
+        if (gameObject.CompareTag("Wall"))
+        {
+            isWalking = !isWalking;
+            animator.SetBool("Stopped", Stopped);
+        }
     }
+
 
 }
