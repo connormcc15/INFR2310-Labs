@@ -1076,7 +1076,7 @@ MonoBehaviour:
   m_IsOverridingCost: 0
   m_Bidirectional: 1
   m_AutoUpdatePosition: 0
-  m_Area: 2
+  m_Area: 0
 --- !u!4 &655065423
 Transform:
   m_ObjectHideFlags: 0
