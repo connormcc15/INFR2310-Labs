@@ -9,5 +9,5 @@ prepared in collaboration with another student when such collaboration has not b
 other academic offences.
 I, Connor McCarthy, understand that a lack of familiarity with these regulations on academic conduct does
 not constitute a defense against its application.
-I, Connor McCarthy, attest that I have completed the LAB 01: TITLE requirements on my own and the
+I, Connor McCarthy, attest that I have completed the LAB 03: Simple Navigation requirements on my own and the
 work submitted is my own original work
